@@ -23,3 +23,8 @@ button {
 ul {
     list-style-type: none;
 }
+
+.wrapper {
+    margin-inline: auto;
+    width: min(100% - 3rem, 65rem);
+}
