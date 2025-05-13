@@ -91,3 +91,41 @@ ul {
     width: 500px;
     height: auto;
 }
+
+/* Features */
+
+.features {
+    padding-block: 40px;
+}
+
+.features-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+.features-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.features-item {
+    max-width: 200px;
+}
+
+.features-icon {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.features-description {
+    text-align: center;
+    color: #1F2937;
+}
