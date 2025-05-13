@@ -129,3 +129,24 @@ ul {
     text-align: center;
     color: #1F2937;
 }
+
+/* QUOTES */
+
+.quotes {
+    padding-block: 100px;
+    background-color: #E5E7EB;
+}
+.quotes-wrapper {
+    max-width: 770px;
+}
+.quotes-title {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotes-author {
+    text-align: right;
+    margin-right: 40px;
+}
