@@ -78,13 +78,16 @@ ul {
     margin-bottom: 20px;
 }
 
-.hero-button {
-    background-color: #3882F6;
+.button {
     font-weight: bold;
-    border: none;
     padding: 5px 25px;
     border-radius: 5px;
     color: #ffffff;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    border: none;
 }
 
 .hero-image {
@@ -149,4 +152,30 @@ ul {
 .quotes-author {
     text-align: right;
     margin-right: 40px;
+}
+
+/* MODAL */
+
+.modal {
+    padding-block: 100px;
+}
+
+.modal-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #ffffff;
+    padding-block: 40px;
+    border-radius: 5px;
+}
+
+.modal-description {
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.modal-button {
+    background-color: #3882F6;
+    border: 1px solid #ffffff;
 }
