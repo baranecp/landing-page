@@ -179,3 +179,15 @@ ul {
     background-color: #3882F6;
     border: 1px solid #ffffff;
 }
+
+/* Footer */
+
+footer {
+    padding-block: 40px; 
+    background-color: #1F2937;
+}
+
+.copyright {
+   text-align: center;
+    color: #E5E7EB;
+}
