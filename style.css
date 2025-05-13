@@ -28,3 +28,27 @@ ul {
     margin-inline: auto;
     width: min(100% - 3rem, 65rem);
 }
+
+/* TOP NAV */
+.topnav {
+    padding-block: 10px;
+    background-color: #1F2937;
+}
+
+.topnav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav-logo {
+    width: 32px;
+    height: auto;
+}
+
+.topnav-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* MAIN */
