@@ -8,7 +8,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
 }
 
 img {
@@ -47,8 +46,48 @@ ul {
 }
 
 .topnav-links {
+    font-size: 18px;
+    color: #E5E7EB;
     display: flex;
     gap: 20px;
 }
 
 /* MAIN */
+.hero {
+    padding-block: 90px;
+    background-color: #1F2937;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+}
+
+.hero-content {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    font-weight: bold;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.hero-image {
+    width: 500px;
+    height: auto;
+}
